@@ -1,1 +1,208 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+
+  <title>Happy Birthday Sharry ❤️ | From Mann</title>
+
+  <meta name="description"
+        content="A special birthday surprise made with love by Mann for Sharry.">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts" aria-hidden="true"></div>
+
+  <!-- Music controls -->
+  <button
+    class="music-toggle"
+    id="musicToggle"
+    type="button"
+    aria-label="Play or pause birthday music"
+  >
+    <span id="musicIcon">🎵</span>
+    <span id="musicLabel">Play our song</span>
+  </button>
+
+  <audio id="birthdayMusic" loop preload="metadata">
+    <source src="./music.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <!-- Hero section -->
+  <header class="hero">
+    <p class="eyebrow">A little surprise, made with love</p>
+
+    <h1>Happy Birthday, <span>Sharry ❤️</span></h1>
+
+    <p class="subtitle">
+      To my favourite person, my happiness, and my special one.
+    </p>
+
+    <p class="from">With all my love, Mann 💌</p>
+
+    <a href="#our-memories" class="main-button">
+      Open Your Surprise 💝
+    </a>
+  </header>
+
+  <!-- Countdown -->
+  <section class="countdown-section">
+    <h2 id="countdownHeading">Countdown to Your Special Day 🎂</h2>
+
+    <div class="countdown" aria-label="Birthday countdown">
+      <div class="time-box">
+        <span id="days">00</span>
+        <small>Days</small>
+      </div>
+
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>Hours</small>
+      </div>
+
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+      </div>
+
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <small>Seconds</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our memories: exactly 3 photos -->
+  <section class="memories" id="our-memories">
+    <p class="eyebrow">Little moments, endless feelings</p>
+    <h2>Our Beautiful Memories 📸</h2>
+
+    <p class="section-description">
+      Every little thing reminds me how special you are to me.
+    </p>
+
+    <div class="photo-gallery">
+      <figure class="photo-card">
+        <img
+          src="./photo1.jpg"
+          alt="A special memory of Mann and Sharry"
+          loading="lazy"
+        >
+        <figcaption>My favourite memory ❤️</figcaption>
+      </figure>
+
+      <figure class="photo-card">
+        <img
+          src="./photo2.jpg"
+          alt="A beautiful memory for Sharry"
+          loading="lazy"
+        >
+        <figcaption>My favourite person 🫶</figcaption>
+      </figure>
+
+      <figure class="photo-card">
+        <img
+          src="./photo3.jpg"
+          alt="A precious moment to remember"
+          loading="lazy"
+        >
+        <figcaption>Us, in my heart forever 💗</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Love letter -->
+  <section class="love-letter">
+    <div class="letter-card">
+      <p class="eyebrow">A letter from my heart</p>
+      <h2>Dear Sharry 💌</h2>
+
+      <p>
+        Happy Birthday, my favourite person! ❤️
+      </p>
+
+      <p>
+        Even though distance keeps us apart, you always have a special
+        place in my heart. I wish I could be beside you today, celebrate
+        your birthday with you, see your smile, and make beautiful
+        memories together.
+      </p>
+
+      <p>
+        Until that day comes, remember that someone far away is thinking
+        about you, cheering for you, and wishing you all the happiness
+        in the world.
+      </p>
+
+      <p>
+        May your new year bring you success, peace, good health, and
+        countless reasons to smile. Never forget how special you are.
+      </p>
+
+      <p class="signature">
+        Forever sending you love,<br>
+        Your Mann ❤️
+      </p>
+    </div>
+  </section>
+
+  <!-- Birthday wishes -->
+  <section class="wishes" id="wishes">
+    <h2>My Wishes for You ✨</h2>
+
+    <div class="wish-list">
+      <p>💖 May your smile never fade.</p>
+      <p>🌟 May all your dreams come true.</p>
+      <p>🎂 May this year bring you endless happiness.</p>
+      <p>🫶 May the distance between us become a beautiful memory someday.</p>
+    </div>
+  </section>
+
+  <!-- Surprise section -->
+  <section class="surprise-section">
+    <h2>One Last Little Surprise 🎁</h2>
+
+    <p>Sharry, there's something I want you to know...</p>
+
+    <button
+      class="main-button"
+      id="surpriseBtn"
+      type="button"
+    >
+      Tap for Your Surprise 💝
+    </button>
+
+    <div class="surprise hidden-section" id="surprise">
+      <h3>You are so special to me! ❤️</h3>
+
+      <p>
+        No matter how many miles separate us, you are remembered,
+        appreciated, and celebrated today. Happy Birthday, Sharry!
+      </p>
+
+      <p class="signature">Lots of love, Mann 💋</p>
+
+      <button id="againBtn" class="secondary-button" type="button">
+        Read It Again 💌
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Made with ❤️ by Mann, especially for Sharry.</p>
+    <p>Distance means so little when someone means so much. 💗</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+
+</body>
+</html>
+
